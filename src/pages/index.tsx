@@ -6,6 +6,8 @@ import CustomLink from '@/components/links/CustomLink';
 import UnstyledLink from '@/components/links/UnstyledLink';
 import Seo from '@/components/Seo';
 
+
+
 // !STARTERCONF -> Select !STARTERCONF and CMD + SHIFT + F
 // Before you begin editing, follow all comments with `STARTERCONF`,
 // to customize the default configuration.
@@ -16,19 +18,21 @@ export default function HomePage() {
       {/* <Seo templateTitle='Home' /> */}
       <Seo />
 
+   
+
       <main>
         <section className='bg-white'>
           <div className='flex flex-col items-center pt-2 min-h-screen text-black layout'>
 
           <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 bg-cover text-white rounded-2xl" style={{
-                  'background-image':
-                  'url(/images/hero-bg.jpg)',
+                  backgroundImage:
+                  "url(/images/hero-bg.jpg)"
                 }}>
       <div className="grid gap-5 row-gap-8 lg:grid-cols-2" >
         <div className="flex flex-col justify-center">
           <div className="max-w-xl mb-6">
             <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight sm:text-4xl sm:leading-none ">
-            Childcare that works for 
+            Childcare that works for
 
               <br className="hidden md:block" />
               <span className="inline-block text-deep-purple-accent-400 text-[#FF70A7] ">
