@@ -5,11 +5,11 @@ import { openGraph } from '@/lib/helper';
 
 // !STARTERCONF Change these default meta
 const defaultMeta = {
-  title: 'Next.js + Tailwind CSS + TypeScript Starter',
-  siteName: 'Next.js + Tailwind CSS + TypeScript Starter',
+  title: 'Childcare Connect',
+  siteName: 'Childcare Connect Inc.',
   description:
-    'A starter for Next.js, Tailwind CSS, and TypeScript with Absolute Import, Seo, Link component, pre-configured with Husky',
-  url: 'https://tsnext-tw.thcl.dev',
+    'Our digital child care connecting platform helps parents/guardians who want to find affordable child care by avoiding long-term commitment, removing wait times and enabling flexibility, providing autonomy and control',
+  url: 'https://childcare.vercel.app',
   image: 'https://theodorusclarence.com/favicon/large-og.jpg',
   type: 'website',
   robots: 'follow, index',
