@@ -87,10 +87,10 @@ const signup = () => {
                     </div>
                     </form>
     
-                    <UnstyledLink href='/signin' className='font-bold hover:bg-gray-200 border-solid border-2 border-indigo-800 px-5 py-2 rounded-full text-center'>
+                    <UnstyledLink href='/signup' className='font-bold hover:bg-gray-200 border-solid border-2 border-indigo-800 px-5 py-2 rounded-full text-center'>
                     Back
                     </UnstyledLink>
-                    <UnstyledLink href='/signup/2' className='text-white font-bold hover:bg-indigo-800 bg-[#6369D2] border-solid border-2 border-indigo-800 px-5 py-2 rounded-full text-center'>
+                    <UnstyledLink href='/' className='text-white font-bold hover:bg-indigo-800 bg-[#6369D2] border-solid border-2 border-indigo-800 px-5 py-2 rounded-full text-center'>
                     Finish
                     </UnstyledLink>
      
