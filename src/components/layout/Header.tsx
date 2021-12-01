@@ -19,7 +19,7 @@ export default function Header() {
           </div>
         </UnstyledLink>
         <nav>
-          <ul className='font-semibold flex items-center justify-between space-x-16'>
+          <ul className='font-semibold flex items-center justify-between space-x-20'>
             {links.map(({ href, label }) => (
               <li key={`${href}${label}`}>
                 <UnstyledLink href={href} className='hover:text-gray-600'>
@@ -27,12 +27,14 @@ export default function Header() {
                 </UnstyledLink>
               </li>
             ))}
-          <UnstyledLink href='/' className='font-bold hover:text-gray-600 border-solid border-2 border-indigo-800 px-5 py-2 rounded-full'>
+            <div className="space-x-3">
+          <UnstyledLink href='/' className='font-bold hover:bg-gray-200 border-solid border-2 border-indigo-800 px-5 py-2 rounded-full'>
           Sign in
         </UnstyledLink>
-          <UnstyledLink href='/' className='text-white font-bold hover:text-gray-600 bg-[#6369D2] border-solid border-2 border-indigo-800 px-5 py-2 rounded-full'>
+          <UnstyledLink href='/' className='text-white font-bold hover:bg-indigo-800 bg-[#6369D2] border-solid border-2 border-indigo-800 px-5 py-2 rounded-full'>
           Sign up
         </UnstyledLink>
+        </div>
           </ul>
         </nav>
       </div>
