@@ -5,7 +5,7 @@ import ButtonLink from '@/components/links/ButtonLink';
 import CustomLink from '@/components/links/CustomLink';
 import UnstyledLink from '@/components/links/UnstyledLink';
 import Seo from '@/components/Seo';
-
+import { BsCheck } from 'react-icons/bs';
 
 
 // !STARTERCONF -> Select !STARTERCONF and CMD + SHIFT + F
@@ -25,51 +25,47 @@ export default function HomePage() {
           <div className='flex flex-col items-center pt-2 min-h-screen text-black layout'>
 
           <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 bg-cover text-white rounded-2xl" style={{
-                  backgroundImage:
-                  "url(/images/hero-bg.jpg)"
+                  backgroundImage:"url(/images/hero-bg.jpg)"
                 }}>
-      <div className="grid gap-5 row-gap-8 lg:grid-cols-2" >
-        <div className="flex flex-col justify-center">
-          <div className="max-w-xl mb-6">
-            <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight sm:text-4xl sm:leading-none ">
-            Childcare that works for
-
-              <br className="hidden md:block" />
-              <span className="inline-block text-deep-purple-accent-400 text-[#FF70A7] ">
-                you 
-              </span>
-              {' '}and {' '}
-              <span className="inline-block text-deep-purple-accent-400 text-[#FFD456]">
-                your family
-              </span>
-            </h2>
-            <p className="text-base md:text-lg">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-              quae. explicabo.
-            </p>
+          <div className="grid gap-5 row-gap-8 lg:grid-cols-2 ml-8" >
+            <div className="flex flex-col justify-center">
+              <div className="max-w-xl mb-6">
+                <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight sm:text-4xl sm:leading-none ">
+                Childcare that works for you and your family
+                </h2>
+                <p className="text-base md:text-lg">
+                Break free from traditional daycare. No waitinglists, no month long contracts. Childcare, when you need it.
+                </p>
+              </div>
+              <UnstyledLink href='/' className='font-bold hover:text-gray-600 bg-[#6369D2] border-solid border-2 border-indigo-800 px-5 py-2 w-28 rounded-full'>
+              Sign up
+            </UnstyledLink>
+            </div>
           </div>
-          <UnstyledLink href='/' className='font-bold hover:text-gray-600 bg-[#6369D2] border-solid border-2 border-indigo-800 px-5 py-2 w-28 rounded-full'>
-          Sign up
-        </UnstyledLink>
         </div>
-      </div>
-    </div>
 
 
 
-      <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 bg-[#FFD456] rounded-2xl my-8">
+      <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-4 bg-[#FFFCF2] rounded-2xl my-8">
       <div className="grid gap-5 row-gap-8 lg:grid-cols-2">
         <div className="flex flex-col justify-center">
           <div className="max-w-xl mb-6">
-            <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
-              Our care provides
+            <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none ml-6">
+              Our care providers
             </h2>
-            <p className="text-base text-gray-700 md:text-lg">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem.
+            <div className="pt-8">
+            <p className="text-base text-gray-700 md:text-lg flex py-4">
+            <BsCheck className="mx-4 mt-1"/>Passionate about Early Childhood Education
             </p>
+            <p className="text-base text-gray-700 md:text-lg flex py-4">
+            <BsCheck className="mx-4 mt-1"/>Registered with the College of Early Childhood Educators of Ontario
+            </p>
+            <p className="text-base text-gray-700 md:text-lg flex py-4">
+            <BsCheck className="mx-4 mt-1"/>Clear Criminal Background Check, conducted twice annually
+            </p>
+            </div>
           </div>
-          <div className="flex-1 gap-5 row-gap-8 sm:grid-cols-2">
+          {/* <div className="flex-1 gap-5 row-gap-8 sm:grid-cols-2">
             <div className="bg-white border-l-4 border-deep-purple-accent-400 shadow-sm hover:scale-105 group hover:shadow-xl duration-300">
               <div className="h-full p-5 border border-l-0 rounded-r">
                 <h6 className="mb-2 font-semibold leading-5">
@@ -91,7 +87,7 @@ export default function HomePage() {
                 </h6>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
         <div>
           <img

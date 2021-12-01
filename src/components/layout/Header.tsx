@@ -14,7 +14,9 @@ export default function Header() {
     <header className='sticky top-0 z-50 bg-white py-2'>
       <div className='flex items-center justify-between h-14 layout'>
         <UnstyledLink href='/' className='font-bold hover:text-gray-600'>
-          <Image src='/image-3.png' alt='' layout='fill'/> Chilecare Connect
+          <div className="relative w-16 h-16">
+          <Image src='/images/Logo Variations_Logo.png' alt=''  layout='fill' /> 
+          </div>
         </UnstyledLink>
         <nav>
           <ul className='font-semibold flex items-center justify-between space-x-16'>
