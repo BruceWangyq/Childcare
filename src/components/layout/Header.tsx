@@ -1,11 +1,11 @@
 import * as React from 'react';
-import Image from 'next/image'
+import Image from 'next/image';
 
 import UnstyledLink from '@/components/links/UnstyledLink';
 
 const links = [
   { href: '/', label: 'PHILOSOPHY' },
-  { href: '/', label: 'CAREGIVERS' },
+  { href: '/caregivers', label: 'CAREGIVERS' },
   { href: '/', label: 'SERVICES' },
 ];
 
@@ -28,10 +28,10 @@ export default function Header() {
               </li>
             ))}
             <div className="space-x-3">
-          <UnstyledLink href='/' className='font-bold hover:bg-gray-200 border-solid border-2 border-indigo-800 px-5 py-2 rounded-full'>
+          <UnstyledLink href='/signin' className='font-bold hover:bg-gray-200 border-solid border-2 border-indigo-800 px-5 py-2 rounded-full'>
           Sign in
         </UnstyledLink>
-          <UnstyledLink href='/' className='text-white font-bold hover:bg-indigo-800 bg-[#6369D2] border-solid border-2 border-indigo-800 px-5 py-2 rounded-full'>
+          <UnstyledLink href='/signup' className='text-white font-bold hover:bg-indigo-800 bg-[#6369D2] border-solid border-2 border-indigo-800 px-5 py-2 rounded-full'>
           Sign up
         </UnstyledLink>
         </div>
