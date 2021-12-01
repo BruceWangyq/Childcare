@@ -21,7 +21,7 @@ export default function ComponentsPage() {
 
   const textColor = mode === 'dark' ? 'text-gray-300' : 'text-gray-600';
   return (
-    <Layout>
+    <div>
       <Seo
         templateTitle='Components'
         description='Pre-built components with awesome default'
@@ -267,7 +267,7 @@ export default function ComponentsPage() {
           </div>
         </section>
       </main>
-    </Layout>
+    </div>
   );
 }
 

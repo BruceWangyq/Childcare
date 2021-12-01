@@ -1,9 +1,8 @@
 import * as React from 'react';
-import CustomLink from '@/components/links/CustomLink';
 
 export default function Footer() {
     return (
-             <div className="relative mt-16 bg-[#66D7D1]">
+    <div className=" mt-16 bg-[#66D7D1] max-h-96">
       <div className="px-4 pt-12 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
        
         <div className="flex flex-col justify-between items-center pt-5 pb-10 sm:flex-row lg:mt-2">
