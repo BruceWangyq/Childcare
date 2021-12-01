@@ -30,9 +30,9 @@ export default function HomePage() {
           <div className="grid gap-5 row-gap-8 lg:grid-cols-2 ml-8" >
             <div className="flex flex-col justify-center">
               <div className="max-w-xl mb-6">
-                <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight sm:text-4xl sm:leading-none ">
+                <h3 className="max-w-lg mb-6 text-3xl font-bold tracking-tight sm:text-4xl sm:leading-none ">
                 Childcare that works for you and your family
-                </h2>
+                </h3>
                 <p className="text-base md:text-lg">
                 Break free from traditional daycare. No waitinglists, no month long contracts. Childcare, when you need it.
                 </p>
@@ -65,29 +65,6 @@ export default function HomePage() {
             </p>
             </div>
           </div>
-          {/* <div className="flex-1 gap-5 row-gap-8 sm:grid-cols-2">
-            <div className="bg-white border-l-4 border-deep-purple-accent-400 shadow-sm hover:scale-105 group hover:shadow-xl duration-300">
-              <div className="h-full p-5 border border-l-0 rounded-r">
-                <h6 className="mb-2 font-semibold leading-5">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum ab facilis vero distinctio ut totam voluptates quo alias dolore molestiae?
-                </h6>
-              </div>
-            </div>
-            <div className="bg-white border-l-4 border-deep-purple-accent-400 shadow-sm hover:scale-105 group hover:shadow-xl duration-300">
-              <div className="h-full p-5 border border-l-0 rounded-r">
-                <h6 className="mb-2 font-semibold leading-5">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, aut!
-                </h6>
-              </div>
-            </div>
-            <div className="bg-white border-l-4 border-deep-purple-accent-400 shadow-sm hover:scale-105 group hover:shadow-xl duration-300">
-              <div className="h-full p-5 border border-l-0 rounded-r">
-                <h6 className="mb-2 font-semibold leading-5">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae consequuntur eveniet omnis quas illum sint.
-                </h6>
-              </div>
-            </div>
-          </div> */}
         </div>
         <div>
           <img
@@ -151,7 +128,19 @@ export default function HomePage() {
         </div>
       </div>
     </div>
-    
+
+    <div className="container px-5 py-12 mx-auto bg-[#FFF2F7] rounded-2xl">
+            <h2 className="px-10 pb-4">Testimonials</h2>
+        <div className="w-full mx-auto xl:w-1/2 lg:w-3/4 bg-white px-20 py-4 relative rounded-2xl">
+        <img
+            className="object-cover w-20 h-20 shadow-lg rounded-full absolute float-left z-10 -inset-x-12 inset-y-8"
+            src="/images/avatar-1.jpg"
+            alt=""
+          />
+            <p className="text-lg leading-relaxed">Unlike the traditional daycare service, Childcare Connect provides the most flexible schedule and high-quality service. I strongly recommended!</p>
+        </div>
+    </div>
+
             {/* <ButtonLink className='mt-6' href='/components' variant='light'>
               See all components
             </ButtonLink> */}
